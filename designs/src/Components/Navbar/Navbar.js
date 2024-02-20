@@ -17,6 +17,9 @@ const Navbar = () => {
           <a href='/#'>New In</a>
           <a href='/#'>Brands</a>
           <a href='/#'>About Us</a>
+          <a>
+            <button>shop now</button>
+          </a>
           <button className='nav-btn nav-close-btn' onClick={showNavbar}>
         <FaTimes />
       </button>

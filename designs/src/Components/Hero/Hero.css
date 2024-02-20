@@ -1,0 +1,89 @@
+.hero-container {
+    width: 100%;
+  height: 500px;
+  background-color: #f3aad7;
+  
+  
+}
+.hero-text{
+   position: absolute;
+   
+    
+    width: 	40%;
+    margin-top: 70px;
+    margin-left: 	25vh;
+    
+
+}
+h2{
+    font-size: 	2.7rem;
+    font-weight: 900;
+    color: rgb(39, 2, 2);
+    
+
+}
+h4{
+    position: absolute;
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.hero-img{
+    
+    width: 50%;
+    
+   
+    float: right;
+    margin-right: 17vh;
+    
+    
+   
+}
+
+.hero-img img{
+    
+    width: 60%;
+    float: right;
+    margin-right: 8vh;
+    
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .hero-text{
+    
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 11vh;
+
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: small;
+    }
+
+    .hero-img{
+    
+        width: 50%;
+        
+       
+        float: right;
+        margin-right: 5px
+}
+
+.hero-img img{
+    
+    width: 75%;
+    float: right;
+    margin-right: 5vh;
+    
+    
+}
+    
+}
+
+
+  
+  
